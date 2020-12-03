@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 face_classifier=cv2.CascadeClassifier("C:/Users/Suraj/PycharmProjects/pythonProject/venv/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
 def face_extractor(img):
     gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
